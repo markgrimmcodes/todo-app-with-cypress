@@ -1,0 +1,26 @@
+{
+  "name": "todo-app-with-cypress",
+  "version": "1.0.0",
+  "description": "Minimal todo app example.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve ./src",
+    "e2e": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markgrimmcodes/todo-app-with-cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markgrimmcodes/todo-app-with-cypress/issues"
+  },
+  "homepage": "https://github.com/markgrimmcodes/todo-app-with-cypress#readme",
+  "devDependencies": {
+    "cypress": "^10.3.1",
+    "serve": "^14.0.1"
+  }
+}
